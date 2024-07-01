@@ -1,12 +1,11 @@
 package ripple.ui.insets
 
 import android.graphics.Color
-import android.os.Build
 
 internal const val DefaultLightScrimColor = 0xE6FFFFFF.toInt()
 internal const val DefaultDarkScrimColor = 0x801B1B1B.toInt()
 
-internal const val DefaultScrimColor = 0x801B1B1B.toInt()
+internal const val DefaultScrimColor = DefaultDarkScrimColor
 
 internal val DefaultStatusBarStyleScheme = SystemBarStyleScheme(
     lightStyle = SystemBarStyle(Color.TRANSPARENT, true),
